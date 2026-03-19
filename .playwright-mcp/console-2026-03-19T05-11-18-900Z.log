@@ -1,0 +1,583 @@
+[   21546ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   21896ms] Error: ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://C:\AIProjectsPOCs\uigenDemo\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:775:59)
+    at DevBundlerService.getCompilationError (file://C:\AIProjectsPOCs\uigenDemo\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://C:\AIProjectsPOCs\uigenDemo\node_modules\next\dist\server\dev\next-dev-server.js:721:42)
+    at DevServer.findPageComponents (file://C:\AIProjectsPOCs\uigenDemo\node_modules\next\dist\server\dev\next-dev-server.js:691:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\AIProjectsPOCs\uigenDemo\node_modules\next\dist\server\base-server.js:1687:26)
+[   21909ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   21910ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   21910ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22496ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22497ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22497ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22540ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22540ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22540ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22592ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22592ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22592ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22681ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22681ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22681ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22722ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[   22772ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { setResponseValueAndErrors } from "../errorMessages.js";
+  3 | import { parseDef } from "../parseDef.js";
+  4 | export function parseArrayDef(def, refs) {
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/array.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22773ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind, } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseDef } from "../parseDef.js";
+  3 | import { parseStringDef } from "./string.js";
+  4 | import { parseBrandedDef } from "./branded.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/parsers/record.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   22773ms] [ERROR] ./node_modules/zod-to-json-schema/dist/esm/selectParser.js:1:1
+Module not found: Can't resolve 'zod/v3'
+> 1 | import { ZodFirstPartyTypeKind } from "zod/v3";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { parseAnyDef } from "./parsers/any.js";
+  3 | import { parseArrayDef } from "./parsers/array.js";
+  4 | import { parseBigintDef } from "./parsers/bigint.js";
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component Browser]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component Browser]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component Browser]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component Browser]
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./node_modules/zod-to-json-schema/dist/esm/selectParser.js [Client Component SSR]
+    ./node_modules/zod-to-json-schema/dist/esm/index.js [Client Component SSR]
+    ./node_modules/@ai-sdk/ui-utils/dist/index.mjs [Client Component SSR]
+    ./node_modules/@ai-sdk/react/dist/index.mjs [Client Component SSR]
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
